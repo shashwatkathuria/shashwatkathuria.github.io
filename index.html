@@ -28,6 +28,20 @@
 .footer a:hover {
   color: white;
 }
+
+@media screen and (min-width: 699px) {
+  #mynavbar {
+    margin-left:25%
+  }
+  #breakit{
+	display:none
+  }
+}
+<!-- @media only screen and (min-width: 700px) { -->
+  <!-- #mynavbar { -->
+    <!-- margin-left:25% -->
+  <!-- } -->
+<!-- } -->
 </style>
 
         <script>
@@ -39,7 +53,7 @@
 
 <body background="i5.jpg" style="background-size: auto auto;">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="margin-left:25%">
+    <nav id="mynavbar" class="navbar navbar-expand-lg navbar-dark bg-transparent" >
             <a class="navbar-brand" href="./index.html"><h2 style="color:white;text-align:center;font-size:35px" class="lead">Shashwat Kathuria</h2></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,7 +107,7 @@
 				   <div class="text-center" style="background-color:rgba(0,0,0,0)">
 				<p class="lead" style="color:white;margin-bottom:0px" >Facebook:<a href="https://www.facebook.com/profile.php?id=1317973766" class="btn btn-social-icon btn-lg btn-facebook" style="color:white"><i class="fa fa-facebook"></i></a>
 				GitHub  :<a href="https://github.com/shashwatkathuria" class="btn btn-social-icon btn-lg btn-github" style="color:white"><i class="fa fa-github"></i></a>
-				Email : kathuria.1@iitj.ac.in</p>
+				<br id="breakit">Email : kathuria.1@iitj.ac.in</p>
 			</div>
 		</footer>
 	</div>
@@ -124,11 +138,6 @@
 
 				<br>
 				<br>
-
-				<!-- <h1 class="lead" style="font-size:40px">Reception Contact Numbers</h1> -->
-
-				<!-- <p class="lead">Please feel free to call us anytime. 24 x 7 Helpline Availability.</p> -->
-				<!-- <button class="btn btn-info" >Contact Numbers : 0141-3562834, 0141-35682104</button> -->
 
 			</div>
 	</div>
