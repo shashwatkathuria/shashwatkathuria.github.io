@@ -1,2 +1,6 @@
-# shashwatkathuria.github.io
-My personal portfolio.
+# My Profile
+-------------------
+
+Hosted at : https://shashwatkathuria.github.io/
+
+-------------------
