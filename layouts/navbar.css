@@ -1,6 +1,32 @@
+.navbar-brand h2 {
+  color:white;
+  text-align: center;
+  font-size: 35px;
+}
+
+.nav-link.lead{
+  color: white;
+  font-size: 20px;
+}
+
+#firstDivider{
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0px;
+}
+
+#secondDivider{
+  margin-top: 0px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
 .footer {
   background: #061D25;
   padding: 10px 0;
+  margin: 0px;
+  padding: 0px;
 }
 .footer a {
   color: #70726F;
