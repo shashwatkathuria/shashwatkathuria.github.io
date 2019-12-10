@@ -1,0 +1,35 @@
+<div class="row" ng-if="$ctrl.projects.length % 2 == 1">
+<div class="col-sm-12" style="margin-top:3%">
+<div class="card text-center">
+    <div class="card-header">
+      {{ $ctrl.projects[0].time }}
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ $ctrl.projects[0].title }}</h5>
+      <p class="card-text">{{ $ctrl.projects[0].areas }}</p>
+      <a ng-if="$ctrl.projects[0].GitHubLink != undefined" ng-href="{{ $ctrl.projects[0].GitHubLink }}" class="btn btn-primary" style="margin-top:1%">Project Repository</a>
+      <a ng-if="$ctrl.projects[0].HerokuLink != undefined" ng-href="{{ $ctrl.projects[0].HerokuLink }}" class="btn btn-primary" style="margin-top:1%">Deployed on Heroku</a>
+      <a ng-if="$ctrl.projects[0].WebAppGitHubLink != undefined" ng-href="{{ $ctrl.projects[0].WebAppGitHubLink }}" class="btn btn-primary" style="margin-top:1%">Project Repository[Web App]</a>
+      <a ng-if="$ctrl.projects[0].AndroidAppGitHubLink != undefined" ng-href="{{ $ctrl.projects[0].AndroidAppGitHubLink }}" class="btn btn-primary" style="margin-top:1%">Project Repository[Web App]</a>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row" ng-repeat="project in ($ctrl.projects.length % 2 == 1 ? $ctrl.projects:$ctrl.projects.slice(1))">
+<div class="col-sm-12" style="margin-top:3%">
+<div class="card text-center">
+    <div class="card-header">
+      {{ project.time }}
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ project.title }}</h5>
+      <p class="card-text">{{ project.areas }}</p>
+      <a ng-if="$ctrl.projects[0].GitHubLink != undefined" ng-href="{{ project.GitHubLink }}" class="btn btn-primary" style="margin-top:1%">Project Repository</a>
+      <a ng-if="$ctrl.projects[0].HerokuLink != undefined" ng-href="{{ project.HerokuLink }}" class="btn btn-primary" style="margin-top:1%">Deployed on Heroku</a>
+      <a ng-if="$ctrl.projects[0].WebAppGitHubLink != undefined" ng-href="{{ project.WebAppGitHubLink }}" class="btn btn-primary" style="margin-top:1%">Project Repository[Web App]</a>
+      <a ng-if="$ctrl.projects[0].AndroidAppGitHubLink != undefined" ng-href="{{ project.AndroidAppGitHubLink }}" class="btn btn-primary" style="margin-top:1%">Project Repository[Web App]</a>
+    </div>
+</div>
+</div>
+</div>
