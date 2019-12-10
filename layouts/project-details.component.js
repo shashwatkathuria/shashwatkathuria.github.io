@@ -3,7 +3,7 @@
 angular.
   module('portfolioApp').
   component('projectDetails', {
-    templateUrl:'./phone-list.template.html',
+    templateUrl:'./project-details.template.html',
     controller: function ProjectDetailsController() {
       this.projects = [
         {
