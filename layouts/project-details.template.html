@@ -1,5 +1,5 @@
 <div class="row" ng-if="$ctrl.projects.length % 2 == 1">
-    <div class="col-sm-12" style="margin-top:3%">
+    <div class="col-sm-12">
         <div class="card text-center">
             <div class="card-header">
               {{ $ctrl.projects[0].time }}
@@ -16,8 +16,8 @@
     </div>
 </div>
 
-<div class="row" ng-repeat="project in ($ctrl.projects.length % 2 == 0 ? $ctrl.projects:$ctrl.projects.slice(1))" ng-class="{active: $first}" ng-if="$index % 2 == 0">
-    <div class="col-sm-6" style="margin-top:3%">
+<div class="row" ng-repeat="project in $ctrl.projects" ng-class="{active: $first}" ng-if="($ctrl.projects.length % 2 == 0 ? $index % 2 == 0:$index % 2 == 1)">
+    <div class="col-sm-6">
         <div class="card text-center">
             <div class="card-header">
               {{ project.time }}
@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-6" style="margin-top:3%">
+    <div class="col-sm-6">
         <div class="card text-center">
             <div class="card-header">
               {{ $ctrl.projects[$index + 1].time }}

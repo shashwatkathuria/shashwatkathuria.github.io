@@ -49,6 +49,19 @@ a.btn.btn-primary{
   margin-top: 1%;
   color: white !important;
 }
+
+.card.text-center{
+  height:100%;
+}
+
+.row .col-sm-6{
+  margin-top: 3%;
+}
+
+.row .col-sm-12{
+  margin-top: 3%;
+}
+
 @media screen and (min-width: 699px) {
   #breakit{
     display:none
