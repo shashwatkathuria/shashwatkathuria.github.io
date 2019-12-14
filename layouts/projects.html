@@ -13,239 +13,27 @@
 
         <script type="text/javascript" src="./app.js"></script>
         <script type="text/javascript" src="./project-details.component.js"></script>
+        <script type="text/javascript" src="./main-navbar.component.js"></script>
 
         <link rel="stylesheet" href="./main.css">
 
         <title>Shashwat Kathuria</title>
 
-        <script>
-        if ( window.history.replaceState ) {
-          window.history.replaceState( null, null, window.location.href );
-        }
-        </script>
     </head>
 
 <body background="./../images/i5.jpg" style="background-size: auto auto;">
 
-    <nav id="mynavbar" class="navbar navbar-expand-lg navbar-dark bg-transparent" >
-      <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-            <a class="navbar-brand" href="./index.html"><h2 class="lead">Shashwat Kathuria</h2></a>
+    <main-navbar></main-navbar>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  	<div class="jumbotron jumbotron-fluid" style = "margin-left:5%;margin-right:5%;background:rgba(200,200,200,0.8);color:black;">
+  			<div class="container">
+  				<h1 class="lead" style="font-size:40px;text-align:center">PROJECTS</h1>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+          <hr class="my-4" >
 
-                <li class="nav-item active">
-                    <a class="nav-link lead" href="./index.html" >Home <span class="sr-only">(current)</span></a>
-                </li>
-
-        				<li class="nav-item">
-        					<a class="nav-link lead" href="./projects.html" >Projects</a>
-        				</li>
-
-                <li class="nav-item">
-                    <a class="nav-link lead" href="./resume.html" >Resume</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link lead" href="./contact.html" >Contact</a>
-                </li>
-
-            </ul>
-
-        </div>
-      </div>
-    </nav>
-    <div class="dropdown-divider" id="firstDivider"></div>
-
-	<div>
-		<div class="jumbotron jumbotron-fluid" style = "margin:0px;padding:0px;background:rgba(0,0,0,0);color:black;">
-		<footer class="footer">
-			</div>
-				   <div class="text-center" style="background-color:rgba(0,0,0,0)">
-				<p class="lead" style="color:white;margin-bottom:0px" >Facebook:<a href="https://www.facebook.com/profile.php?id=1317973766" class="btn btn-social-icon btn-lg btn-facebook" style="color:white"><i class="fa fa-facebook"></i></a>
-				GitHub:<a href="https://github.com/shashwatkathuria" class="btn btn-social-icon btn-lg btn-github" style="color:white"><i class="fa fa-github"></i></a>
-				<br id="breakit">Email: kathuria.1@iitj.ac.in</p>
-			</div>
-		</footer>
-	</div>
-	<div class="dropdown-divider" id="secondDivider"></div>
-
-	<div class="jumbotron jumbotron-fluid" style = "margin-left:5%;margin-right:5%;background:rgba(200,200,200,0.8);color:black;">
-			<div class="container">
-
-
-				<h1 class="lead" style="font-size:40px;text-align:center">PROJECTS</h1>
-				<hr class="my-4" >
-
-
-        <project-details></project-details>
-        <!-- <div class="row" >
-        <div class="col-sm-12" style="margin-top:3%">
-        <div class="card text-center">
-            <div class="card-header">
-              SEPTEMBER 2019 - JANUARY 2020
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Social Cloud</h5>
-              <p class="card-text">Web Development, JavaScript Application</p>
-              <a href="https://github.com/shashwatkathuria/SocialCloud" class="btn btn-primary" style="margin-top:1%">Project Repository</a>
-              <a href="https://social-cloud-sk17.herokuapp.com/" class="btn btn-primary" style="margin-top:1%">Deployed on Heroku</a>
-            </div>
-        </div>
-        </div>
-        </div>
-
-
-        <div class="row" >
-        <div class="col-sm-6" style="margin-top:3%">
-        <div class="card text-center">
-            <div class="card-header">
-              MARCH 2019
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Garage StopLight</h5>
-              <p class="card-text">Raspberry Pi</p>
-              <a href="https://github.com/shashwatkathuria/Garage-StopLight-Project" class="btn btn-primary" >Project Repository</a>
-            </div>
-        </div>
-        </div>
-
-        <div class="col-sm-6" style="margin-top:3%">
-        <div class="card text-center">
-            <div class="card-header">
-              JULY 2019 - AUGUST 2019
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Flappy Bird</h5>
-              <p class="card-text">Game Development</p>
-              <a href="https://github.com/shashwatkathuria/FlappyBird-GameDevelopment" class="btn btn-primary">Project Repository</a>
-            </div>
-        </div>
-        </div>
-        </div>
-
-
-        <div class="row" >
-				<div class="col-sm-6" style="margin-top:3%">
-				<div class="card text-center">
-					  <div class="card-header">
-							MAY 2019 - JULY 2019
-					  </div>
-					  <div class="card-body">
-							<h5 class="card-title">Drawing Canvas</h5>
-							<p class="card-text">Web Development, JavaScript Application</p>
-							<a href="https://github.com/shashwatkathuria/Drawing-Canvas" class="btn btn-primary" style="margin-top:1%">Project Repository</a>
-              <a href="https://drawing-canvas-sk17.herokuapp.com/" class="btn btn-primary" style="margin-top:1%">Deployed on Heroku</a>
-					  </div>
-				</div>
-				</div>
-
-				<div class="col-sm-6" style="margin-top:3%">
-				<div class="card text-center">
-					  <div class="card-header">
-							JUNE 2019 - AUGUST 2019
-					  </div>
-					  <div class="card-body">
-							<h5 class="card-title">Pong</h5>
-							<p class="card-text">Game Development</p>
-							<a href="https://github.com/shashwatkathuria/Pong-GameDevelopment" class="btn btn-primary">Project Repository</a>
-					  </div>
-				</div>
-				</div>
-				</div>
-
-
-
-				<div class="row" >
-				<div class="col-sm-6" style="margin-top:3%">
-				<div class="card text-center">
-					  <div class="card-header">
-							MARCH 2019 - MAY 2019
-					  </div>
-					  <div class="card-body">
-							<h5 class="card-title">Natural Language Processing - Part of Speech Tagging</h5>
-							<p class="card-text">Machine Learning</p>
-							<a href="https://github.com/shashwatkathuria/NLP-Hindi-English" class="btn btn-primary" >Project Repository</a>
-					  </div>
-				</div>
-				</div>
-
-				<div class="col-sm-6" style="margin-top:3%">
-				<div class="card text-center">
-					  <div class="card-header">
-							JUNE 2018 - PRESENT
-					  </div>
-					  <div class="card-body">
-							<h5 class="card-title">Data Structures & Algorithms</h5>
-							<p class="card-text">Programmed in Python, C++ & C</p>
-							<a href="https://github.com/shashwatkathuria/Data-Structures-And-Algorithms" class="btn btn-primary">Project Repository</a>
-					  </div>
-				</div>
-				</div>
-				</div>
-
-				<div class="row">
-				<div class="col-sm-6" style="margin-top:3%">
-				<div class="card text-center">
-					  <div class="card-header">
-							SEPTEMBER 2018 - JANUARY 2019
-					  </div>
-					  <div class="card-body">
-							<h5 class="card-title">Cryptography</h5>
-							<p class="card-text">Programmed in Python & C</p>
-							<a href="https://github.com/shashwatkathuria/Cryptography" class="btn btn-primary">Project Repository</a>
-					  </div>
-				</div>
-				</div>
-				<div class="col-sm-6" style="margin-top:3%">
-				<div class="card text-center">
-					  <div class="card-header">
-							JANUARY 2019 - MAY 2019
-					  </div>
-					  <div class="card-body">
-							<h5 class="card-title">IITJ HealthCare</h5>
-							<p class="card-text">Software Engineering, Web Development</p>
-							<a href="https://github.com/shashwatkathuria/IITJHealthCare-Project" class="btn btn-primary" style="margin-top:1%">Project Repository</a>
-              <a href="https://iitj-healthcare-sk17.herokuapp.com/" class="btn btn-primary" style="margin-top:1%">Deployed on Heroku</a>
-					  </div>
-				</div>
-				</div>
-				</div>
-
-				<div class="row">
-				<div class="col-sm-6" style="margin-top:3%">
-				<div class="card text-center" >
-					  <div class="card-header">
-							OCTOBER 2018 - NOVEMBER 2018
-					  </div>
-					  <div class="card-body">
-							<h5 class="card-title">Disaster Safety App</h5>
-							<p class="card-text">Android Application & Web Development</p>
-							<a href="https://github.com/shashwatkathuria/Disaster-Safety-Web-App" class="btn btn-primary" style="margin-top:1%">Project Repository[Web App]</a>
-							<a href="https://github.com/shashwatkathuria/Disaster-Safety-Android-App" class="btn btn-primary" style="margin-top:1%">Project Repository[Android App]</a>
-					  </div>
-				</div>
-				</div>
-				<div class="col-sm-6" style="margin-top:3%">
-				<div class="card text-center">
-					  <div class="card-header">
-							FEBRUARY 2018
-					  </div>
-					  <div class="card-body">
-							<h5 class="card-title">Drag v/s Normal Projectile</h5>
-							<p class="card-text">Graphical Comparison</p>
-							<a href="https://github.com/shashwatkathuria/Drag-vs-Normal-Projectile-Python-Project" class="btn btn-primary" style="margin-top:1%">Project Repository</a>
-					  </div>
-				</div>
-				</div>
-				</div>
- -->
-			</div>
-	</div>
+          <project-details></project-details>
+  			</div>
+  	</div>
 
             <!-- Optional JavaScript -->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
