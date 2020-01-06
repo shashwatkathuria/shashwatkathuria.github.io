@@ -13,6 +13,11 @@ angular.
           GitHubLink: 'https://github.com/shashwatkathuria/SocialCloud',
           HerokuLink: 'https://social-cloud-sk17.herokuapp.com/'
         }, {
+          title: 'Socket Programming - Physical and Data link Layer - TCP/IP',
+          time: 'NOVEMBER 2019',
+          areas: 'Data Communication, TCP/IP Model Functionalities',
+          GitHubLink: 'https://github.com/shashwatkathuria/Socket-Programming',
+        }, {
           title: 'Garage StopLight',
           time: 'MARCH 2019',
           areas: 'Raspberry Pi',
