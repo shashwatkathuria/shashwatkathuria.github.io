@@ -7,11 +7,31 @@ angular.
     controller: function ProjectDetailsController() {
       this.projects = [
         {
+          title: 'IoT Intelligent Traffic Monitoring System',
+          time: 'FEBRUARY 2020 - APRIL 2020',
+          areas: 'Internet of Things, Computer Vision, Raspberry Pi 3B',
+          GitHubLink: 'https://github.com/shashwatkathuria/IoT-TrafficMonitoringSystem',
+        }, {
           title: 'Social Cloud',
           time: 'SEPTEMBER 2019 - JANUARY 2020',
           areas: 'Web Development, JavaScript Application',
           GitHubLink: 'https://github.com/shashwatkathuria/SocialCloud',
-          HerokuLink: 'https://social-cloud-sk17.herokuapp.com/'
+          HerokuLink: 'https://social-cloud-sk17.herokuapp.com/',
+        }, {
+          title: 'Artificial Intelligence - Search Algorithms',
+          time: 'MARCH 2020',
+          areas: 'Artificial Intelligence',
+          GitHubLink: 'https://github.com/shashwatkathuria/Artificial-Intelligence-Search-Algorithms',
+        }, {
+          title: 'P2P - Network Monitoring System',
+          time: 'FEBRUARY 2020',
+          areas: 'Computer Networks, Peer-to-Peer',
+          GitHubLink: 'https://github.com/shashwatkathuria/P2P-Network-Monitoring-System',
+        }, {
+          title: 'Serverless Computing & Security, Challenges',
+          time: 'FEBRUARY 2020',
+          areas: 'Cloud Computing & Virtualization',
+          GitHubLink: 'https://github.com/shashwatkathuria/Cloud-Computing-And-Virtualization',
         }, {
           title: 'Socket Programming - Physical and Data link Layer - TCP/IP',
           time: 'NOVEMBER 2019',
