@@ -1,0 +1,30 @@
+@import './variables.scss';
+
+$fade-in-duration: 1s;
+$spread-out-vertical-duration: 0.3s;
+$spread-out-horizontal-duration: 0.3s;
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   50% {opacity: 0.8;}
+   100% {opacity: 1;}
+}
+
+@keyframes spreadOutHorizontal {
+   0% {border-left: 0px solid white;}
+   100% {border-left: 100% solid white;}
+}
+
+@keyframes spreadOutVertical {
+   // 0% {border-top: 0px solid $dark-black;}
+   // 100% {border-top: 100% solid $dark-black;}
+   0% {
+     margin-left: 50%;
+     margin-right: 50%;
+   }
+   100% {
+     margin-left: 30%;
+     margin-right: 30%;
+   }
+
+}
