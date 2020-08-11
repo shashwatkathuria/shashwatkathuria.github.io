@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+.resume-container {
+  padding: 0.5%;
+  text-align: center;
+}
+.resume {
+  width: 70%;
+  align-self: center;
+  box-shadow: $box-shadow;
+}
+.resume-section {
+  align-items: center;
+  min-height: 80vh;
+}
