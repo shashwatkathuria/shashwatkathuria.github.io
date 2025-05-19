@@ -1,8 +1,14 @@
-@import './variables.scss';
+@use './variables' as *;
 
 .footer-section {
   color: white !important;
   font-size: 1.2vw !important;
+
+  border-radius: $border-radius $border-radius 0 0;
+  background-color:rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 10px;
+
   @media only screen and (min-width: $tablet) and (max-width: $desktop) {
     font-size: 1.7vw !important;
   }
@@ -10,10 +16,6 @@
   @media only screen and (max-width: $tablet) {
     font-size: 2.5vw !important;
   }
-  border-radius: $border-radius $border-radius 0 0;
-  background-color:rgba(0, 0, 0, 0.8);
-  text-align: center;
-  padding: 10px;
 }
 
 .footer-contact-info {

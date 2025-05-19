@@ -1,4 +1,4 @@
-@import './variables.scss';
+@use './variables' as *;
 
 .project-cards {
   display: flex;
@@ -13,6 +13,11 @@
   background-color: white;
   color: white;
   width: 32.5%;
+
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  transition: box-shadow ease 0.1s;
+
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     width: 48%;
     min-height: 130px;
@@ -23,10 +28,6 @@
     min-height: 130px;
     max-height: 250px;
   }
-
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-  transition: box-shadow ease 0.1s;
 
   &:hover {
     box-shadow: $hover-box-shadow;
@@ -43,13 +44,13 @@
 .project-card-title {
   font-weight: bold;
   font-size: 1.7vw;
+  transition: all ease 0.1s;
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     font-size: 2.5vw;
   }
   @media screen and (max-width: $tablet) {
     font-size: 4vw;
   }
-  transition: all ease 0.1s;
 }
 
 .project-card-description {

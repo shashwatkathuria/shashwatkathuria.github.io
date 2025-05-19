@@ -1,23 +1,37 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
-const ImageminPlugin = require("imagemin-webpack");
+const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const path = require("path");
+
+const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
 
-  // Uncomment below lines for production build
+  // Below lines only for production build
+  ...(isProd && {
+    output: {
+      path: path.resolve(__dirname),
+      filename: '[name].js',
+      publicPath: path.resolve(__dirname)
+    }
+  }),
 
-  // output: {
-  //   path: path.resolve(__dirname),
-  //   filename: '[name].js',
-  //   publicPath: path.resolve(__dirname)
-  // },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
+          loader: "babel-loader",
+          options: {
+            presets: [
+              "@babel/preset-env",
+              "@babel/preset-react"
+            ],
+            plugins: [
+              "@babel/plugin-proposal-class-properties",
+              "@babel/plugin-transform-class-properties"
+            ]
+          }
         }
       },
       {
@@ -60,30 +74,28 @@ module.exports = {
   },
   plugins: [
     // Make sure that the plugin is after any plugins that add images, example `CopyWebpackPlugin`
-    new ImageminPlugin({
-      bail: false, // Ignore errors on corrupted images
-      cache: true,
+    new ImageMinimizerPlugin({
       exclude: /\/ShashwatKathuria.jpg/,
-      imageminOptions: {
-        // Before using imagemin plugins make sure you have added them in `package.json` (`devDependencies`) and installed them
-
-        // Lossless optimization with custom option
-        // Feel free to experiment with options for better result for you
-        plugins: [
-          ["gifsicle", { interlaced: true }],
-          ["jpegtran", { progressive: true }],
-          ["optipng", { optimizationLevel: 5 }],
-          [
-            "svgo",
-            {
-              plugins: [
-                {
-                  removeViewBox: false
-                }
-              ]
-            }
+      minimizer: {
+        implementation: ImageMinimizerPlugin.imageminGenerate,
+        options: {
+          plugins: [
+            ["gifsicle", { interlaced: true }],
+            ["jpegtran", { progressive: true }],
+            ["optipng", { optimizationLevel: 5 }],
+            [
+              "svgo",
+              {
+                plugins: [
+                  {
+                    name: "removeViewBox",
+                    active: false
+                  }
+                ]
+              }
+            ]
           ]
-        ]
+        }
       }
     }),
     new HtmlWebPackPlugin({
@@ -92,17 +104,14 @@ module.exports = {
       filename: "./index.html"
     }),
     new HtmlWebPackPlugin({
-      favicon: "./src/favicon.png",
       template: "./src/index.html",
       filename: "./resume.html"
     }),
     new HtmlWebPackPlugin({
-      favicon: "./src/favicon.png",
       template: "./src/index.html",
       filename: "./blogs.html"
     }),
     new HtmlWebPackPlugin({
-      favicon: "./src/favicon.png",
       template: "./src/index.html",
       filename: "./projects.html"
     })

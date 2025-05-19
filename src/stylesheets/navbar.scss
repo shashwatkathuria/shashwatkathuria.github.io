@@ -1,5 +1,5 @@
-@import './variables.scss';
-@import './animations.scss';
+@use './variables' as *;
+@use './animations' as *;
 
 .top-section {
   font-family: 'Playfair Display', serif;
@@ -28,10 +28,6 @@
   margin: 2px;
   padding: 60px;
 
-  @media screen and (max-width: $desktop) {
-    padding: 5%;
-  }
-
   box-shadow: $box-shadow;
 
   transition: all ease 50ms;
@@ -39,6 +35,10 @@
   animation-duration: $fade-in-duration;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+
+  @media screen and (max-width: $desktop) {
+    padding: 5%;
+  }
 }
 
 .top-section-image {
@@ -131,6 +131,12 @@
   margin-left: 10%;
   margin-right: 10%;
 
+  -webkit-animation-duration: $spread-out-horizontal-duration;
+  animation-duration: $spread-out-horizontal-duration;
+
+  -webkit-animation-name: spreadOutHorizontal;
+  animation-name: spreadOutHorizontal;
+
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     margin-left: 5%;
     margin-right: 5%;
@@ -142,12 +148,6 @@
     margin-right: 3%;
     border-left: 2px solid white;
   }
-
-  -webkit-animation-duration: $spread-out-horizontal-duration;
-  animation-duration: $spread-out-horizontal-duration;
-
-  -webkit-animation-name: spreadOutHorizontal;
-  animation-name: spreadOutHorizontal;
 }
 
 .horizontal-line {
@@ -157,6 +157,11 @@
   margin-bottom: 0.5%;
   border-radius: $border-radius;
 
+  -webkit-animation-duration: $spread-out-vertical-duration;
+  animation-duration: $spread-out-vertical-duration;
+  -webkit-animation-name: spreadOutVertical;
+  animation-name: spreadOutVertical;
+
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     border-top: 3px solid $dark-black;
   }
@@ -164,9 +169,4 @@
   @media screen and (max-width: $tablet) {
     border-top: 2px solid $dark-black;
   }
-
-  -webkit-animation-duration: $spread-out-vertical-duration;
-  animation-duration: $spread-out-vertical-duration;
-  -webkit-animation-name: spreadOutVertical;
-  animation-name: spreadOutVertical;
 }

@@ -1,4 +1,4 @@
-@import './variables.scss';
+@use './variables' as *;
 
 $fade-in-duration: 1s;
 $spread-out-vertical-duration: 0.3s;

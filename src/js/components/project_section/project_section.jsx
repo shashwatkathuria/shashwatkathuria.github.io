@@ -12,13 +12,13 @@ export default class ProjectSection extends React.Component {
         // time: 'FEBRUARY 2020 - APRIL 2020',
         description: 'Web Development, JavaScript Application',
         imageUrl: './assets/drawing-canvas.png',
-        deployUrl: 'https://drawing-canvas-sk17.herokuapp.com/',
+        deployUrl: 'https://drawingcanvassk17.azurewebsites.net/',
         githubUrl: 'https://github.com/shashwatkathuria/Drawing-Canvas'
       }, {
         title: 'Social Cloud',
         description: 'Web Development',
         imageUrl: './assets/social-cloud.png',
-        deployUrl: 'https://social-cloud-sk17.herokuapp.com/',
+        deployUrl: 'https://socialcloudsk17.azurewebsites.net/',
         githubUrl: 'https://github.com/shashwatkathuria/SocialCloud',
       } , {
         title: 'Intelligent Traffic Monitoring System',
@@ -30,21 +30,20 @@ export default class ProjectSection extends React.Component {
         title: 'Traffic Penalty System',
         description: 'Web Development',
         imageUrl: './assets/traffic-penalty-system.png',
-        deployUrl: 'https://traffic-penalty-system-sk17.herokuapp.com/',
+        deployUrl: 'https://trafficpenaltysystemsk17.azurewebsites.net/',
         videosUrl: 'https://drive.google.com/drive/folders/1FZ8eTLNpNaGGvW1qC6BvRbPIQPkGrD3P?usp=sharing',
         githubUrl: 'https://github.com/shashwatkathuria/Traffic-Penalty-System'
       }, {
         title: 'Serverless Chat Application',
         description: 'Serverless Computing, Web Development',
         imageUrl: './assets/serverless-chat-app.png',
-        deployUrl: 'http://iitj-serverless-chat-app.s3-website-us-east-1.amazonaws.com/',
         githubUrl: 'https://github.com/shashwatkathuria/Serverless-Chat-Application',
       }, {
         title: 'IITJ HealthCare',
         description: 'Software Engineering, Web Development',
         imageUrl: './assets/iitj-healthcare.png',
         videosUrl: 'https://drive.google.com/open?id=1gLBj9akrKigSoae0Vlbf7UVykw1XdBpU',
-        deployUrl: 'https://iitj-healthcare-sk17.herokuapp.com/',
+        deployUrl: 'https://iitjhealthcaresk17.azurewebsites.net/',
         githubUrl: 'https://github.com/shashwatkathuria/IITJHealthCare-Project',
       }, {
         title: 'Flappy Bird',

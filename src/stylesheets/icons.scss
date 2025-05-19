@@ -1,5 +1,5 @@
-@import './variables.scss';
-@import './animations.scss';
+@use './variables' as *;
+@use './animations' as *;
 
 .text-icon {
   display: flex;

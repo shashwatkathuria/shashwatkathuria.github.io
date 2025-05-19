@@ -15,11 +15,16 @@ export default class Navbar extends React.Component {
 
         <div class='home-section-content'>
             <p class='description-content'>
-              Hey there! I am Shashwat, a full-stack software developer and open-source contributor from New Delhi, India.
-              I am a final year undergraduate pursuing B.Tech. Computer Science & Engineering at Indian Institute of Technology, Jodhpur.
+              Hi, I'm Shashwat Kathuria — a Full-Stack Software Engineer from New Delhi, India.
               <br/>
               <br/>
-              I enjoy working on Web Development, Mobile Application Development and Internet of Things (IoT). I also really like working on Data Structures & Algorithms, Cryptography and Machine Learning. I have developed several projects of my own and deployed them on the internet, which can be found in the Projects Section.
+              I earned my B.Tech. in Computer Science & Engineering from Indian Institute of Technology, Jodhpur in 2021, and I currently work at Microsoft as a Software Engineer 2, after starting my journey there as an Software Engineer 1.
+              <br/>
+              <br/>
+              My experience spans the full stack — from frontend and backend web development to big data pipelines and cloud infrastructure. I enjoy building scalable systems, contributing to open-source projects, and exploring areas like Machine Learning, Cryptography, Internet of Things, Mobile Application Development, Game Development and Data Structures & Algorithms.
+              <br/>
+              <br/>
+              I have developed several projects of my own and deployed them on the internet, which can be found in the Projects Section.
             </p>
         </div>
 
@@ -31,7 +36,7 @@ export default class Navbar extends React.Component {
 
             <div class='industry-experience-card'>
               <img src='./assets/gsoc-3.png'/>
-              <p class='industry-experience-card-description'>Internship<br/>May - September 2020</p>
+              <p class='industry-experience-card-description'>Internship<br/>May - Sep 2020</p>
             </div>
 
             <div class='industry-experience-card'>
@@ -41,7 +46,17 @@ export default class Navbar extends React.Component {
 
             <div class='industry-experience-card'>
               <img src='./assets/wikimedia.png'/>
-              <p class='industry-experience-card-description'>Open Source Contributions<br/>Feb 2020 - Present</p>
+              <p class='industry-experience-card-description'>Open Source Contributions<br/>Jan 2020 - Dec 2020</p>
+            </div>
+
+            <div class='industry-experience-card'>
+              <img src='./assets/microsoft-2.png'/>
+              <p class='industry-experience-card-description'>Software Engineer 1<br/>June 2021 - Sep 2023</p>
+            </div>
+
+            <div class='industry-experience-card'>
+              <img src='./assets/microsoft-2.png'/>
+              <p class='industry-experience-card-description'>Software Engineer 2<br/>Sep 2023 - Present</p>
             </div>
 
         </div>
@@ -54,22 +69,34 @@ export default class Navbar extends React.Component {
 
           <div class='technologies-list'>
             <ul>
+              <li>C</li>
+              <li>C++</li>
+              <li>C#</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>Scala</li>
+              <li>Ruby</li>
+              <li>Lua</li>
               <li>React Native</li>
               <li>Android Studio</li>
+              <li>Apache Spark</li>
+              <li>Azure</li>
+              <li>Synapse</li>
+              <li>Heroku</li>
               <li>Django</li>
               <li>Ruby on Rails</li>
+              <li>Flask</li>
+              <li>NodeJS</li>
               <li>ReactJS</li>
               <li>AngularJS</li>
               <li>Webpack</li>
               <li>HTML / CSS / Sass</li>
               <li>Raspberry Pi</li>
-              <li>Python</li>
-              <li>C</li>
-              <li>C++</li>
-              <li>Java</li>
-              <li>JavaScript</li>
-              <li>Ruby</li>
-              <li>Lua</li>
+              <li>MongoDB</li>
+              <li>PostgreSQL</li>
+              <li>SQLite</li>
+              <li>Git</li>
             </ul>
           </div>
 
