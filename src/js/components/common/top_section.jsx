@@ -30,12 +30,6 @@ export default class TopSection extends React.Component {
             <a href='https://github.com/shashwatkathuria'>
               <GitHubIcon className='navbar-icon' />
             </a>
-            <a href='https://instagram.com/shashwat.kathuria'>
-              <InstagramIcon className='navbar-icon' />
-            </a>
-            <a href='https://www.facebook.com/people/Shashwat-Kathuria/1317973766'>
-              <FacebookIcon className='navbar-icon' />
-            </a>
             <a href='https://www.medium.com/@shashwatkathuria7'>
               <MediumIcon2 className='navbar-icon' />
             </a>
