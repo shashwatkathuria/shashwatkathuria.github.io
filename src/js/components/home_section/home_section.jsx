@@ -18,7 +18,7 @@ export default class Navbar extends React.Component {
               Hi, I'm Shashwat Kathuria — a Full-Stack Software Engineer from New Delhi, India.
               <br/>
               <br/>
-              I earned my B.Tech. in Computer Science & Engineering from Indian Institute of Technology, Jodhpur in 2021, and I currently work at Microsoft as a Software Engineer 2, after starting my journey there as an Software Engineer 1.
+              I earned my B.Tech. in Computer Science & Engineering from Indian Institute of Technology, Jodhpur in 2021, and I currently work at Microsoft as a Software Engineer 2, after starting my journey there as a Software Engineer 1.
               <br/>
               <br/>
               My experience spans the full stack — from frontend and backend web development to big data pipelines and cloud infrastructure. I enjoy building scalable systems, contributing to open-source projects, and exploring areas like Machine Learning, Cryptography, Internet of Things, Mobile Application Development, Game Development and Data Structures & Algorithms.
