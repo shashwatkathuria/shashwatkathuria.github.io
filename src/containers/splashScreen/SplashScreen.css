@@ -13,6 +13,8 @@
 .splash-title-container {
   font-size: 2.5rem;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 .splash-title {
   font-family: "Agustina Regular", cursive;
@@ -20,4 +22,18 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 20px;
+  text-align: center;
+}
+
+.splash-arrow {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.splash-arrow-left {
+  margin-left: 15px;
+}
+.splash-arrow-right {
+  margin-right: 15px;
 }

@@ -1,8 +1,22 @@
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+
+import { keyframes } from "@emotion/react";
+import { Reveal } from "react-awesome-reveal";
+
+const customAnimation = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+`;
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -18,7 +32,7 @@ export default function StartupProject() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Reveal keyframes={customAnimation} duration={1000} fraction={0.05} triggerOnce>
       <div className="main" id="projects">
         <div>
           <h1 className="skills-heading">{bigProjects.title}</h1>
@@ -89,6 +103,6 @@ export default function StartupProject() {
           </div>
         </div>
       </div>
-    </Fade>
+    </Reveal>
   );
 }
