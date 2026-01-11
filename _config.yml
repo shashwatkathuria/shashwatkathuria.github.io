@@ -1,1 +1,0 @@
-exclude: [ 'src', 'package.json', 'package-lock.json', 'webpack.config.js', 'README.md', '.gitignore', '.babelrc' ]
