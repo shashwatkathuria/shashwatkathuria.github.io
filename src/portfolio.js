@@ -48,15 +48,15 @@ const skillsSection = {
   title: "Technical skills",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Programming Languages ⚡"),
+    emoji("👨‍💻 Programming Languages :"),
     emoji("C • C++ • C# • Python • Java • JavaScript • Scala • Ruby • Lua"),
-    emoji("⚡ Web Development ⚡"),
-    emoji("Django • Ruby on Rails • NodeJS • Flask • HTML • CSS • JavaScript • Bootstrap • Webpack • PostgreSQL • SQLite • MongoDB"),
-    emoji("⚡ Mobile App Development ⚡"),
+    emoji("👨‍💻 Web Development :"),
+    emoji("Django • Ruby on Rails • NodeJS • ASP.NET Core • Flask • HTML • CSS • JavaScript • Webpack • MongoDB • PostgreSQL • SQLite • Bootstrap"),
+    emoji("👨‍💻 Mobile App Development :"),
     emoji("Android Studio • React Native"),
-    emoji("⚡ Big Data ⚡"),
+    emoji("👨‍💻 Big Data :"),
     emoji("Apache Spark • Hadoop • Synapse • HDInsight • Azure Data Factory"),
-    emoji("⚡ Utilities ⚡"),
+    emoji("👨‍💻 Utilities :"),
     emoji("Git • Raspberry Pi • Microsoft Azure • Heroku • AWS • MongoDB Atlas • Microsoft Substrate"),
   ],
 
@@ -126,7 +126,7 @@ const workExperiences = {
         "Built a large-scale big data platform called Score Data Lake from scratch to process massive audit and site data, with highly parallel, resource-efficient pipelines.",
         "Scaled governance reporting from 2 to 10+ reports, enabling multi-team access and growing the platform from 7K to 300K+ tenants.",
         "Designed and delivered an end-to-end Content Events system to detect malicious high-volume user activity, efficiently handling large datasets under tight resource constraints.",
-        "Implemented using Apache Spark, Scala, SQL, Synapse, HDInsight, Azure Data Factory, Microsoft Substrate, Cosmos and C#."
+        "Implemented using Apache Spark, Scala, SQL, Synapse, HDInsight, Azure Data Factory, Microsoft Substrate, Cosmos, ASP.NET Core, .NET and C#."
       ]
     }, {
       role: "Software Engineer 1",
@@ -136,7 +136,7 @@ const workExperiences = {
       desc: "Level 59, Level 60",
       descBullets: [
         "Worked on backend, UI and joblets of data access governance section of SharePoint admin center website to compute and show reports related to sharing links of files and site sensitivity labels.",
-        "Implemented using C#, ReactJS and Webpack."
+        "Implemented using C#, ASP.NET Core, ReactJS and Webpack."
       ]
     }, {
       role: "Software Engineer Intern",
