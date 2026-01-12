@@ -230,7 +230,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://drawigncanvassk17.azurewebsites.net/"
+          url: "https://drawingcanvassk17.azurewebsites.net/"
         }, {
           name: "GitHub Repository",
           url: "https://github.com/shashwatkathuria/Drawing-Canvas"
@@ -266,7 +266,7 @@ const bigProjects = {
           url: "https://trafficpenaltysystemsk17.azurewebsites.net/"
         }, {
           name: "GitHub Repository",
-          url: "https://github.com/shashwatkathuria/Pong-GameDevelopment"
+          url: "http://github.com/shashwatkathuria/Traffic-Penalty-System"
         }
       ]
     }, {
