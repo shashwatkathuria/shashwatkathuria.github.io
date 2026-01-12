@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.84efd0c7.css",
-    "main.js": "/static/js/main.09074ee7.js",
+    "main.js": "/static/js/main.32ad673f.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.ae1f3dbe.chunk.js": "/static/js/64.ae1f3dbe.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/nlp-hindi-english.png": "/static/media/nlp-hindi-english.db866dc27cace97eb317.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/disaster-safety-android-app.png": "/static/media/disaster-safety-android-app.8e2eb76c0cadf8766ea6.png",
-    "static/media/resume.pdf": "/static/media/resume.3eb538f3225031ca09a9.pdf",
+    "static/media/resume.pdf": "/static/media/resume.d67564626e94c7aae0b7.pdf",
     "static/media/disaster-safety-web-app.png": "/static/media/disaster-safety-web-app.499cba1fba7645c4f06b.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -32,7 +32,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.84efd0c7.css.map": "/static/css/main.84efd0c7.css.map",
-    "main.09074ee7.js.map": "/static/js/main.09074ee7.js.map",
+    "main.32ad673f.js.map": "/static/js/main.32ad673f.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.ae1f3dbe.chunk.js.map": "/static/js/64.ae1f3dbe.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.84efd0c7.css",
-    "static/js/main.09074ee7.js"
+    "static/js/main.32ad673f.js"
   ]
 }
