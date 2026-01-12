@@ -41,19 +41,19 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          {viewSkills && (
+          {viewResume && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#resume">Resume</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Work Experience</a>
             </li>
           )}
-          {viewResume && (
+          {viewSkills && (
             <li>
-              <a href="#resume">Resume</a>
+              <a href="#skills">Skills</a>
             </li>
           )}
           {/* {viewOpenSource && (

@@ -27,7 +27,7 @@ export default function WorkExperience() {
         <Reveal keyframes={customAnimation} duration={1000} fraction={0.1} triggerOnce>
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">Experiences</h1>
+              <h1 className="experience-heading">Work Experience</h1>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (
