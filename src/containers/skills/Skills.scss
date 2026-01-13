@@ -28,6 +28,11 @@
   color: $subTitle;
 }
 
+.skills-subheading {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {

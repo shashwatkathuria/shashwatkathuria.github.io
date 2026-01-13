@@ -46,18 +46,34 @@ export default function Skills() {
             <SoftwareSkill />
             <div>
               {skillsSection.skills.map((skills, i) => {
-                return (
-                  <p
-                    key={i}
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {skills}
-                  </p>
-                );
+                const isHeading = (String(skills[1]).includes(":")) ? true : false;
+                if (isHeading) {
+                  return (
+                    <p
+                      key={i}
+                      className={
+                        isDark
+                          ? "dark-mode subTitle skills-text skills-subheading"
+                          : "subTitle skills-text skills-subheading"
+                      }
+                    >
+                      {skills}
+                    </p>
+                  );
+                } else {
+                  return (
+                    <p
+                      key={i}
+                      className={
+                        isDark
+                          ? "dark-mode subTitle skills-text"
+                          : "subTitle skills-text"
+                      }
+                    >
+                      {skills}
+                    </p>
+                  );
+                }
               })}
             </div>
           </div>
