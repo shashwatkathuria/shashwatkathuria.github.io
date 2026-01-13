@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.84efd0c7.css",
-    "main.js": "/static/js/main.32ad673f.js",
+    "main.css": "/static/css/main.de41ad7d.css",
+    "main.js": "/static/js/main.ee0b07c0.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.ae1f3dbe.chunk.js": "/static/js/64.ae1f3dbe.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.914b6c37.chunk.js": "/static/js/769.914b6c37.chunk.js",
-    "static/media/intelligent-traffic-monitoring-system.jpg": "/static/media/intelligent-traffic-monitoring-system.2f296eefbf0745c3dff4.jpg",
-    "static/media/serverless-chat-app.png": "/static/media/serverless-chat-app.ffc5d2a91520203c828f.png",
-    "static/media/social-cloud.png": "/static/media/social-cloud.138c2358fc74ed738739.png",
-    "static/media/traffic-penalty-system.png": "/static/media/traffic-penalty-system.a0528afe218dd1c87744.png",
-    "static/media/iitj-healthcare.png": "/static/media/iitj-healthcare.1b7a61645f8e021a6e90.png",
-    "static/media/news-application.jpg": "/static/media/news-application.94fdb3a699ff13a9058d.jpg",
+    "static/media/intelligent-traffic-monitoring-system.jpg": "/static/media/intelligent-traffic-monitoring-system.1725a7f66847d2fd689c.jpg",
+    "static/media/social-cloud.png": "/static/media/social-cloud.58d5994ca179bd81da3e.png",
     "static/media/drawing-canvas.png": "/static/media/drawing-canvas.a7e282e7b2b366efa52d.png",
+    "static/media/serverless-chat-app.png": "/static/media/serverless-chat-app.61a9cb1b860e20197ff1.png",
+    "static/media/traffic-penalty-system.png": "/static/media/traffic-penalty-system.d27c683337c0c3bd8635.png",
     "static/media/garage-stoplight.jpg": "/static/media/garage-stoplight.12764a3ded428b8533dd.jpg",
+    "static/media/iitj-healthcare.png": "/static/media/iitj-healthcare.6ca2236171f2ca90ad1c.png",
     "static/media/iitjLogo.jpg": "/static/media/iitjLogo.c8908e153c45cac4c129.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/drag-vs-normal-projectile.png": "/static/media/drag-vs-normal-projectile.378ef5e1ed7f9133408f.png",
     "static/media/data-structures-and-algorithms.png": "/static/media/data-structures-and-algorithms.b56061e6fea52a7ba21c.png",
+    "static/media/news-application.jpg": "/static/media/news-application.db0d1c4434e59e4c8c97.jpg",
     "static/media/cryptography.png": "/static/media/cryptography.f976fc0e69670fe90f3a.png",
     "static/media/nlp-hindi-english.png": "/static/media/nlp-hindi-english.db866dc27cace97eb317.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -31,15 +31,15 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.84efd0c7.css.map": "/static/css/main.84efd0c7.css.map",
-    "main.32ad673f.js.map": "/static/js/main.32ad673f.js.map",
+    "main.de41ad7d.css.map": "/static/css/main.de41ad7d.css.map",
+    "main.ee0b07c0.js.map": "/static/js/main.ee0b07c0.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.ae1f3dbe.chunk.js.map": "/static/js/64.ae1f3dbe.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.914b6c37.chunk.js.map": "/static/js/769.914b6c37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84efd0c7.css",
-    "static/js/main.32ad673f.js"
+    "static/css/main.de41ad7d.css",
+    "static/js/main.ee0b07c0.js"
   ]
 }
