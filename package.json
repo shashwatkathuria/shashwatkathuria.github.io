@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
-    "colorthief": "^2.3.0",
+    "colorthief": "^2.6.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.2.0",
